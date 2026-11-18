@@ -14,9 +14,9 @@ permissions:
 jobs:
   pr_labels:
     name: Labels
-    uses: davidnlopes/Reusable.Workflows/.github/workflows/labeler.yaml@v1
+    uses: davidnlopes/reusable-workflows/.github/workflows/labeler.yaml@v1
 
   semantic_pr:
     needs: pr_labels
     name: Semantic
-    uses: davidnlopes/Reusable.Workflows/.github/workflows/semantic-pr.yaml@v1
+    uses: davidnlopes/reusable-workflows/.github/workflows/semantic-pr.yaml@v1
