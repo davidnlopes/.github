@@ -13,4 +13,4 @@ permissions:
 jobs:
   security:
     name: Security
-    uses: davidnlopes/Reusable.Workflows/.github/workflows/trivy-scan.yaml@v1
+    uses: davidnlopes/reusable-workflows/.github/workflows/trivy-scan.yaml@v1
